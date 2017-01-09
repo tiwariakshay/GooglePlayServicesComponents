@@ -60,9 +60,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Additions\AboutAdditions.txt" />
-    <None Include="..\..\externals\wearable-support\aidl\android\support\wearable\watchface\WatchFaceStyle.aidl">
-      <Link>Additions\WatchFaceStyle.aidl</Link>
-    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

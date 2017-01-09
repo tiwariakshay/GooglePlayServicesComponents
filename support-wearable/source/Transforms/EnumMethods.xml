@@ -16,7 +16,24 @@
   - The parameter names will be p0, p1, ... unless you provide JavaDoc file in the project.
   -->
 	<!--path="/api/package[@name='android.support.wearable.view']/class[@name='WearableFrameLayout']/method[@name='setVisibility' and count(parameter)=1 and parameter[1][@type='int']]"-->
+
 	<mapping jni-class="android/support/wearable/view/WearableFrameLayout">
 		<method jni-name="setVisibility" parameter="visibility" clr-enum-type="Android.Views.ViewState" />
 	</mapping>
+
+	<!-- path="/api/package[@name='android.support.wearable.view.drawer']/class[@name='WearableDrawerLayout']/method[@name='getNestedScrollAxes' and count(parameter)=0]"-->
+	<mapping jni-class="android/support/wearable/view/drawer/WearableDrawerLayout">
+		<method jni-name="getNestedScrollAxes" parameter="return" clr-enum-type="Android.Views.ScrollAxis" />
+	</mapping>
+
+	<!--path="/api/package[@name='android.support.wearable.view']/class[@name='ProgressSpinner']/method[@name='setVisibility' and count(parameter)=1 and parameter[1][@type='int']]"-->
+	<mapping jni-class="android/support/wearable/view/ProgressSpinner">
+		<method jni-name="setVisibility" parameter="visibility" clr-enum-type="Android.Views.ViewState" />
+	</mapping>
+
+	<!--path="/api/package[@name='android.support.wearable.view']/class[@name='WearableFrameLayout']/method[@name='getForegroundGravity' and count(parameter)=0]"-->
+	<mapping jni-class="android/support/wearable/view/WearableFrameLayout">
+		<method jni-name="getForegroundGravity" parameter="return" clr-enum-type="Android.Views.GravityFlags" />
+	</mapping>
+	
 </enum-method-mappings>
