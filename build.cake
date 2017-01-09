@@ -23,7 +23,7 @@ var PLAY_AAR_VERSION = "10.0.1";
 var VERSION_DESC = "10.0.1";
 
 var WEAR_COMPONENT_VERSION = "2.0.0.0";
-var WEAR_NUGET_VERSION = "2.0.0-alpha3";
+var WEAR_NUGET_VERSION = "2.0.0-alpha3.1";
 var WEAR_AAR_VERSION = "2.0.0-alpha3";
 
 var WEARABLE_SUPPORT_VERSION = "2.0.0-alpha3";
@@ -75,6 +75,8 @@ var AAR_INFOS = new [] {
 	new AarInfo ("wearable", "play-services-wearable", "android/gms/play-services-wearable", "Xamarin.GooglePlayServices.Wearable", PLAY_AAR_VERSION, PLAY_NUGET_VERSION, PLAY_COMPONENT_VERSION),
 
 	new AarInfo ("support-wearable", "wearable", "android/support/wearable", "Xamarin.Android.Wear", WEAR_AAR_VERSION, WEAR_NUGET_VERSION, WEAR_COMPONENT_VERSION),
+
+	//new AarInfo ("wearable-wearable", "wearable", "android/wearable/wearable", "Xamarin.Android.Wear", WEAR_AAR_VERSION, WEAR_NUGET_VERSION, WEAR_COMPONENT_VERSION),
 
 	new AarInfo ("firebase-ads", "firebase-ads", "firebase/firebase-ads", "Xamarin.Firebase.Ads", FIREBASE_AAR_VERSION, FIREBASE_NUGET_VERSION, FIREBASE_COMPONENT_VERSION),
 	new AarInfo ("firebase-analytics", "firebase-analytics", "firebase/firebase-analytics", "Xamarin.Firebase.Analytics", FIREBASE_AAR_VERSION, FIREBASE_NUGET_VERSION, FIREBASE_COMPONENT_VERSION),
