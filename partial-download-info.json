@@ -430,5 +430,21 @@
     "CompressedSize": 263999,
     "Md5": "3771f05036dcc9213036909c039d2b60",
     "RangeEnd": 150750043
+  },
+  {
+    "Url": "https://dl-ssl.google.com/android/repository/google_m2repository_gms_v8_rc42_wear_2a3.zip",
+    "RangeStart": 148647230,
+    "LocalPath": "m2repository/com/google/android/wearable/wearable/2.0.0-alpha3/wearable-2.0.0-alpha3.jar",
+    "CompressedSize": 2730,
+    "Md5": "390c8b614069f25cc6d530253d07faaf",
+    "RangeEnd": 148649960
+  },
+  {
+    "Url": "https://dl-ssl.google.com/android/repository/google_m2repository_gms_v8_rc42_wear_2a3.zip",
+    "RangeStart": 149313378,
+    "LocalPath": "m2repository/com/google/android/support/wearable/2.0.0-alpha3/wearable-2.0.0-alpha3.aar",
+    "CompressedSize": 431133,
+    "Md5": "3b1a7ba2502478ea3c2a733b3c041826",
+    "RangeEnd": 149744511
   }
 ]
