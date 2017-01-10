@@ -23,7 +23,7 @@ var PLAY_AAR_VERSION = "10.0.1";
 var VERSION_DESC = "10.0.1";
 
 var WEAR_COMPONENT_VERSION = "2.0.0.0";
-var WEAR_NUGET_VERSION = "2.0.0-alpha3.1";
+var WEAR_NUGET_VERSION = "2.0.0-alpha3x1";
 var WEAR_AAR_VERSION = "2.0.0-alpha3";
 
 var WEARABLE_SUPPORT_VERSION = "2.0.0-alpha3";
